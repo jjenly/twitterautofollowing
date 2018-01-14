@@ -1,0 +1,6 @@
+log.log
+err.log
+.env
+/vendor/
+/logs/
+app/class/Config/Settings.php

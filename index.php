@@ -1,0 +1,2 @@
+<?php
+die('all ok');

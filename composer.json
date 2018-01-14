@@ -1,0 +1,19 @@
+{
+    "name": "jenly/autofollow",
+    "authors": [
+        {
+            "name": "jenly",
+            "email": "jenly@mail.ru"
+        }
+    ],
+    "require": {
+        "joshcam/mysqli-database-class": "dev-master",
+        "symfony/dotenv": "^4.0",
+        "symfony/var-dumper": "^4.0",
+        "abraham/twitteroauth": "^0.7.4",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "app/class"}
+    }
+}

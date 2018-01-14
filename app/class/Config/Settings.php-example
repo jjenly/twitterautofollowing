@@ -1,0 +1,18 @@
+<?php
+namespace App\Config;
+
+class Settings
+{
+    const DONOR_SCREEN_NAME = 'XXXXX';
+    const DONOR_LIST_TABLE = 'donor';
+    const SEND_REQUEST_TABLE = 'send_request';
+    const FOLLOWERS_COUNT = ['min'=> 10, 'max'=> 100];
+    const FRIENDS_COUNT = ['min'=> 10, 'max'=> 200];
+    const REQUEST_TOTAL = 10;
+    const ACTIVE_LIST_TYPE = 'followers';
+    const SLEEP_AFTER_REQUEST = 10;
+    const USER_INACTIVE_AFTER_DAYS = 60;
+    const LIST_TYPE = ['friends'=> 1, 'followers'=> 2];
+    const FRIENDS_SYNC_COUNT = 100;
+
+}
